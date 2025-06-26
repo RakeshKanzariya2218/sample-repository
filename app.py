@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<h1>Welcome to My Flask App</h1><p>Navigate to <a href='/hello'>/hello</a></p>"
+    return "<h1>Welcome rakesh kanzariya</h1><p>Navigate to <a href='/hello'>/hello</a></p>"
 
 @app.route('/hello', methods=['GET', 'POST'])
 def hello():
